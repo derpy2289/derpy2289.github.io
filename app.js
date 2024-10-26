@@ -6,8 +6,8 @@ function Random_Number() {
     const inputValue = input.value;
     RanNumber = Math.floor(Math.random() * 10);
     if (inputValue == RanNumber) {
-        return "YOU GEUSSED THE RIGHT NUMBER!!! YIPEEE"
+        document.getElementById('output').innerText = "YOU GEUSSED THE RIGHT NUMBER!!! YIPEEE"
     } else {
-        return "HAHAHHAHA LOSER TRY AGAIN"
+        document.getElementById('output').innerText = "HAHAHHAHA LOSER TRY AGAIN"
     }
 }
