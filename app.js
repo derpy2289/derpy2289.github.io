@@ -1,4 +1,4 @@
-let x = e
+const x = "e"
 
 function Random_Number() {
     const input = document.getElementById("number");
