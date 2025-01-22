@@ -1,5 +1,5 @@
 function Random_Number() {
-    const input = document.getElementById("number");
+    const input = document.getElementById("number2");
     const inputValue = input.value;
     const RanNumber = Math.floor(Math.random() * 10);
     
