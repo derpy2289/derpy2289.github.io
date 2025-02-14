@@ -2,7 +2,7 @@
   "name": "html-css",
   "version": "1.0.0",
   "description": "A template for HTML and CSS",
-  "main": "index.html",
+  "main": "valentine.html",
   "scripts": {
     "start": "serve"
   },
@@ -10,7 +10,7 @@
     "html",
     "css"
   ],
-  "author": "Ives van Hoorne",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "serve": "11.2.0"
